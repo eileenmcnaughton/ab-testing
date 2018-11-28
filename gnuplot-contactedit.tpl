@@ -22,7 +22,7 @@ set ylabel "Response Time (ms)"
  
 # plot data from bench1.tsv,bench2.tsv and bench3.tsv using column 10 with smooth sbezier lines
 plot "contact-edit1.tsv" using 10 smooth sbezier with lines title "Benchmark 1:", \
-plot "contact-edit20181127032031-arrayc5a100.tsv" every ::2 using 2:4  lc rgb "#5DBCD2" title 'array1, concurrency 5' with lines, \
+plot "contact-edit20181127032031-arrayc5a100.tsv" every ::2 using 2:5  lc rgb "#5DBCD2" title 'array1, concurrency 5' with lines, \
 "contact-edit20181127032633-arrayc5a100.tsv" every ::2 using 2:5 lc rgb "blue" title 'array2, concurrency 5' with lines, \
 "contact-edit20181127032838-arrayc5a100.tsv" every ::2 using 2:5 title 'array3, concurrency 5' with lines, \
 "contact-edit20181127033532-arrayc1a100.tsv" every ::2 using 2:5 lc rgb "#032C60" title 'array4, concurrency 1' with lines, \
