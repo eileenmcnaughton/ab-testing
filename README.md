@@ -1,3 +1,5 @@
+Cert needs to be in ~/.ssh/cert.pem"
+
 Useful links
 
 
